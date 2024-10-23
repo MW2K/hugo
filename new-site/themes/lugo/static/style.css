@@ -1,0 +1,61 @@
+body {
+	font-family: 'Lucida Console', 'Fira Mono', 'Monaco', 'Hack', monospace;
+	background: #d4c6c6 ;
+	color: #000000 ;
+	font-size: 1.2rem ;
+    line-height: 1.7rem ;
+	border-style: dotted ;
+	max-width: 64rem ;
+    margin: 1rem auto ;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+/* Headings */
+h1 {color: rgb(27, 6, 56);} 
+h2 {color: crimson;} 
+h3 {color: chocolate;} 
+
+h1,h2,h3 {
+	text-align: center ;
+}
+
+img {
+	margin:auto ;
+	width: 100% ;
+	max-width: 100% ;
+}
+
+header h1,h2,h3 {
+	text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}

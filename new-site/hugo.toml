@@ -1,0 +1,18 @@
+baseURL = 'https://petergreenwell.com/'
+languageCode = 'en-au'
+DefaultContentLanguage = "en-au"
+title = 'Peter Greenwell'
+theme = 'lugo'
+author = "Peter Greenwell"
+copyright = "© 2024 - forever Peter Greenwell."
+enableEmoji = true
+pagination.pagerSize = 3
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  [markup.goldmark.extensions.extras.mark]
+    enable = true  
